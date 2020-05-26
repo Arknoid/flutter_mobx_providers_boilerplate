@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mobxTest/src/stores/counter.dart';
 import 'package:provider/provider.dart';
+import '../../stores/stores.dart';
 
-class StoresProvider extends StatelessWidget {
+class AppProvider extends StatelessWidget {
   final Widget child;
 
-  StoresProvider({@required this.child});
+  AppProvider({@required this.child});
   @override
   Widget build(BuildContext context) {
     return MultiProvider(

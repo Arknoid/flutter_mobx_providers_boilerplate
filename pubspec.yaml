@@ -1,7 +1,7 @@
-name: mobxTest
+name: mobx_boilerplate
 description: A new Flutter project.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none' 
 
 version: 1.0.0+1
 
@@ -11,16 +11,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  mobx: ^1.2.1
+  mobx: ^1.2.1 
+  auto_route: ^0.5.0
+  get: ^2.5.6
   flutter_mobx: ^1.1.0
   provider: ^3.1.0
   mobx_codegen: ^1.1.0
   cupertino_icons: ^0.1.3
 
 dev_dependencies:
+  auto_route_generator:  ^0.5.0
   flutter_test:
     sdk: flutter
   build_runner: ^1.10.0
+
 
 flutter:
   uses-material-design: true

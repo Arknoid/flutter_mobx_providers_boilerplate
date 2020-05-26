@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mobxTest/src/stores/counter.dart';
 import 'package:provider/provider.dart';
+import '../../../stores/stores.dart';
 
 class IncrementFloatingActionButton extends StatelessWidget {
   @override

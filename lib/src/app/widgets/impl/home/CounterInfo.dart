@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:mobxTest/src/stores/counter.dart';
 import 'package:provider/provider.dart';
+import '../../../stores/stores.dart';
 
 class CounterInfo extends StatelessWidget {
   @override
